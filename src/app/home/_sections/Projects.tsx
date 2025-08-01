@@ -19,49 +19,40 @@ const galleryItems = [
   },
   {
     title: "Packaging",
-    image: "/images/gallery/packaging.jpg",
+    image: "/image4.webp",
     category: "Packaging & Label Design",
   },
   {
     title: "Fashion Design",
-    image: "/images/gallery/fashion.jpg",
+    image: "/image1.jpeg",
     category: "Fashion Design",
   },
   {
     title: "Brochure",
-    image: "/images/gallery/brochure-1.jpg",
+    image: "/image4.webp",
     category: "Brochure Design",
   },
   {
     title: "Architecture",
-    image: "/images/gallery/architecture-1.jpg",
+    image: "/image1.jpeg",
     category: "Architecture",
   },
   {
     title: "Poster",
-    image: "/images/gallery/poster.jpg",
+    image: "/image1.jpeg",
     category: "Poster Design",
   },
   {
     title: "Logo",
-    image: "/images/gallery/logo-1.jpg",
+    image: "/image4.webp",
     category: "Logo Design",
   },
   {
     title: "Illustration 2",
-    image: "/images/gallery/illustration-2.jpg",
+    image: "/image4.webp",
     category: "Illustration",
   },
-  {
-    title: "Concept Art",
-    image: "/images/gallery/concept-art.jpg",
-    category: "Concept Art",
-  },
-  {
-    title: "Brochure 2",
-    image: "/images/gallery/brochure-2.jpg",
-    category: "Brochure Design",
-  },
+ 
 ];
 
 export default function Projects() {
@@ -96,7 +87,7 @@ export default function Projects() {
                 height={300}
                 style={{
                   width: "100%",
-                  height: "auto",
+                  height: "100%",
                   display: "block",
                   objectFit: "cover",
                 }}
@@ -106,19 +97,20 @@ export default function Projects() {
                   position: "absolute",
                   top: 8,
                   right: 8,
-                  backgroundColor: "rgba(255,255,255,0.8)",
+                  backgroundColor: "#8686861a",
+                  backdropFilter: "blur(20px)",
                   "&:hover": { backgroundColor: "white" },
                 }}
               >
-                <FavoriteBorderIcon />
+                <FavoriteBorderIcon sx={{background:"transparent", color:"background.default"}}/>
               </IconButton>
             </Box>
 
             <CardContent>
-              <Typography variant="subtitle1" fontWeight={600}>
+              <Typography sx={{ fontSize: "20px", fontWeight: "600" }}>
                 {item.title}
               </Typography>
-              <Typography variant="caption" color="text.secondary">
+              <Typography sx={{ fontSize: "16px", color: "text.pramiry" }}>
                 {item.category}
               </Typography>
             </CardContent>
