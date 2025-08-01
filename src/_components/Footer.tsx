@@ -1,4 +1,4 @@
-import { Box, Button, IconButton, Switch, Typography } from "@mui/material";
+import { Box, Button, IconButton, Typography } from "@mui/material";
 import Link from "next/link";
 import { FaTwitter, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
@@ -12,12 +12,24 @@ export default function Footer() {
           margin: "auto",
         }}
       >
-        <Box sx={{ mt: "48px", textAlign: "center" }}>
-          <Typography sx={{ fontSize: "14px", fontWeight: "500" }}>
+        <Box sx={{ display:"flex", alignItems:"center", justifyContent:"center",gap:"20px", mt: "48px", textAlign: "center" }}>
+          <Typography sx={{ fontSize: "16px", fontWeight: "500" }}>
             Are you convinced to contact me now?
           </Typography>
           <Link href={"/contact-us"}>
-            <Button variant="text" sx={{ color: "text.primary", mt: "8px" }}>
+            <Button variant="text" sx={{
+                color: "background.default",
+                bgcolor: "text.primary",
+                textTransform: "none",
+                fontWeight:"600",
+                // paddingX: 3,
+                // paddingY: 1.5,
+                borderRadius: "8px",
+                "&:hover": {
+                  backgroundColor: "#1c2a3a", // hover effect
+                  color:"white"
+                },
+              }}>
               →
             </Button>
           </Link>
