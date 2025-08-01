@@ -10,46 +10,48 @@ import {
 import Masonry from "@mui/lab/Masonry";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import Image from "next/image";
+import image1 from "../../../_assets/pngs/image1.jpeg"
+import image4 from "../../../_assets/pngs/image4.webp"
 
 const galleryItems = [
   {
     title: "Illustration",
-    image: "./image1.jpeg",
+    image: image1,
     category: "Illustration",
   },
   {
     title: "Packaging",
-    image: "./image4.webp",
+    image: image4,
     category: "Packaging & Label Design",
   },
   {
     title: "Fashion Design",
-    image: "./image1.jpeg",
+    image: image1,
     category: "Fashion Design",
   },
   {
     title: "Brochure",
-    image: "./image4.webp",
+    image: image4,
     category: "Brochure Design",
   },
   {
     title: "Architecture",
-    image: "./image1.jpeg",
+    image: image1,
     category: "Architecture",
   },
   {
     title: "Poster",
-    image: "./image1.jpeg",
+    image: image1,
     category: "Poster Design",
   },
   {
     title: "Logo",
-    image: "./image4.webp",
+    image: image4,
     category: "Logo Design",
   },
   {
     title: "Illustration 2",
-    image: "./image4.webp",
+    image: image4,
     category: "Illustration",
   },
  
