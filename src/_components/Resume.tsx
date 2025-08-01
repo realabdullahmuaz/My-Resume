@@ -20,7 +20,7 @@ export default function ResumePage() {
         <Typography sx={{ fontSize: {xs:"38px", sm:"48px"}, fontWeight: "700" }}>
           My Resumé.
         </Typography>
-        <Typography sx={{ fontSize: "14px", mt: "6px" }}>
+        <Typography sx={{ fontSize: "16px", mt: "6px" }}>
           Reach out to me via my{" "}
           <Link href="/contact-us">
             <Typography
@@ -55,7 +55,7 @@ export default function ResumePage() {
       <Typography sx={{ fontSize: "34px", fontWeight: "700", mb: "6px" }}>
         Abdullah Muaz
       </Typography>
-      <Typography sx={{ fontSize: "14px", fontWeight: "500", mb: "6px" }}>
+      <Typography sx={{ fontSize: "16px", fontWeight: "500", mb: "6px" }}>
         Frontend Developer | JavaScript Engineer | UX Engineer
       </Typography>
 
@@ -71,7 +71,7 @@ export default function ResumePage() {
         sx={{
           display: "flex",
           flexDirection: { xs: "column-reverse", md: "row" },
-          gap: "40px",
+          gap: "50px",
         }}
       >
         <Box sx={{ maxWidth: { xs: "100%", md: "600px" } }}>
@@ -89,14 +89,14 @@ export default function ResumePage() {
               <Typography sx={{ fontSize: "16px", fontWeight: "600" }}>
                 Zamp – Senior Frontend Engineer
               </Typography>
-              <Typography sx={{ fontSize: "10px", fontWeight: "700" }}>
+              <Typography sx={{ fontSize: "12px", fontWeight: "700" }}>
                 MAY 2019 - PRESENT
               </Typography>
             </Box>
-            <Typography sx={{ fontSize: "14px" }}>
+            <Typography sx={{ fontSize: "16px" }}>
               React, Typescript, Webpack
             </Typography>
-            <Typography sx={{ fontSize: "14px" }}>
+            <Typography sx={{ fontSize: "16px" }}>
               Built reusable components and design systems that powered the
               frontend for Zamp’s core treasury infrastructure.
             </Typography>
@@ -112,14 +112,14 @@ export default function ResumePage() {
               <Typography sx={{ fontSize: "16px", fontWeight: "600" }}>
                 TechAdvance – Senior UI Engineer
               </Typography>
-              <Typography sx={{ fontSize: "10px", fontWeight: "700" }}>
+              <Typography sx={{ fontSize: "12px", fontWeight: "700" }}>
                 MAY 2019 - PRESENT
               </Typography>
             </Box>
-            <Typography sx={{ fontSize: "14px" }}>
+            <Typography sx={{ fontSize: "16px" }}>
               React, Next.js, Chakra UI
             </Typography>
-            <Typography sx={{ fontSize: "14px" }}>
+            <Typography sx={{ fontSize: "16px" }}>
               Led migration from legacy UI libraries to Chakra UI, improving
               consistency and developer productivity.
             </Typography>
@@ -127,11 +127,11 @@ export default function ResumePage() {
           {/* Repeat above Box for other experiences */}
         </Box>
 
-        <Box sx={{ maxWidth: { xs: "100%", md: "500px" } }}>
+        <Box sx={{ maxWidth: { xs: "100%", md: "550px" } }}>
           <Typography sx={{ fontSize: "20px", fontWeight: "700", mb: "8px" }}>
             Summary
           </Typography>
-          <Typography sx={{ fontSize: "14px", textAlign: "justify" }}>
+          <Typography sx={{ fontSize: "16px", textAlign: "justify" }}>
             {/* Frontend developer and javascript engineer with over 1+ years of
             experience, Delivering engaging and visually compelling applications
             with user-friendly interactions that drive business growth and
@@ -142,7 +142,7 @@ export default function ResumePage() {
             results. Skilled in React, Next.js, and performance optimization, I
             focus on creating clean, maintainable code that scales. Passionate
             about solving problems through technology while balancing UX,
-            performance, and business need
+            performance, and business need.
           </Typography>
 
           <Divider
@@ -156,10 +156,10 @@ export default function ResumePage() {
           <Typography sx={{ fontSize: "20px", fontWeight: "700", mb: "8px" }}>
             Contact Details
           </Typography>
-          <Typography sx={{ fontSize: "14px" }}>
+          <Typography sx={{ fontSize: "16px" }}>
             abdullahmuaz405@gmail.com
           </Typography>
-          <Typography sx={{ fontSize: "14px" }}>
+          <Typography sx={{ fontSize: "16px" }}>
             Tel: +92 313 4991159
           </Typography>
           <Box sx={{ display: "flex", gap: "10px" }}>
@@ -196,14 +196,14 @@ export default function ResumePage() {
           <Typography sx={{ fontSize: "16px", fontWeight: "700", mb: "8px" }}>
             Languages:
           </Typography>
-          <Typography sx={{ fontSize: "14px", mb: "16px" }}>
-            JavaScript, HTML 5, CSS 3, SASS, TypeScript, Next.js, Node.js, NPM,
+          <Typography sx={{ fontSize: "16px", mb: "16px" }}>
+            JavaScript, HTML 5, CSS 3, SASS, TypeScript, Tailwind CSS, Next.js, Node.js, NPM,
             Github, Git and more
           </Typography>
           <Typography sx={{ fontSize: "16px", fontWeight: "700", mb: "8px" }}>
             Technologies:
           </Typography>
-          <Typography sx={{ fontSize: "14px", mb: "16px" }}>
+          <Typography sx={{ fontSize: "16px", mb: "16px" }}>
             JavaScript, React.js, TypeScript, Next.js, Tailwind, Material-UI,
             Node.js, Git, CI/CD, Unit Testing
           </Typography>
@@ -222,8 +222,8 @@ export default function ResumePage() {
           <Typography sx={{ fontSize: "16px", fontWeight: "700" }}>
             University of the Punjab, Lahore Pakistan
           </Typography>
-          <Typography sx={{ fontSize: "14px" }}>
-            Bachelor's in Computer Science
+          <Typography sx={{ fontSize: "16px" }}>
+            Bachelor&apos;s in Computer Science
           </Typography>
 
           <Divider
@@ -238,7 +238,7 @@ export default function ResumePage() {
           <Typography sx={{ fontSize: "20px", fontWeight: "700", mb: "8px" }}>
             Projects
           </Typography>
-          <Typography sx={{ fontSize: "14px" }}>
+          <Typography sx={{ fontSize: "16px" }}>
             Portfolio Website, Dashboard App, Open Source contributions on
             GitHub.
           </Typography>
