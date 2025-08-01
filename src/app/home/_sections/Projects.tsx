@@ -14,42 +14,42 @@ import Image from "next/image";
 const galleryItems = [
   {
     title: "Illustration",
-    image: "/image1.jpeg",
+    image: "./image1.jpeg",
     category: "Illustration",
   },
   {
     title: "Packaging",
-    image: "/image4.webp",
+    image: "./image4.webp",
     category: "Packaging & Label Design",
   },
   {
     title: "Fashion Design",
-    image: "/image1.jpeg",
+    image: "./image1.jpeg",
     category: "Fashion Design",
   },
   {
     title: "Brochure",
-    image: "/image4.webp",
+    image: "./image4.webp",
     category: "Brochure Design",
   },
   {
     title: "Architecture",
-    image: "/image1.jpeg",
+    image: "./image1.jpeg",
     category: "Architecture",
   },
   {
     title: "Poster",
-    image: "/image1.jpeg",
+    image: "./image1.jpeg",
     category: "Poster Design",
   },
   {
     title: "Logo",
-    image: "/image4.webp",
+    image: "./image4.webp",
     category: "Logo Design",
   },
   {
     title: "Illustration 2",
-    image: "/image4.webp",
+    image: "./image4.webp",
     category: "Illustration",
   },
  

@@ -23,7 +23,7 @@ export default function Footer() {
                 textTransform: "none",
                 fontWeight:"600",
                 // paddingX: 3,
-                // paddingY: 1.5,
+                // paddingY: 1.5,`
                 borderRadius: "8px",
                 "&:hover": {
                   backgroundColor: "#1c2a3a", // hover effect
