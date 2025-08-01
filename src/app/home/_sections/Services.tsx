@@ -12,32 +12,32 @@ import {
 const services = [
   {
     icon: <FaCode size={32} />,
-    title: "Web Development",
+    title: "Frontend Web Developer",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ad quam, veniam eos dicta",
   },
   {
     icon: <FaPalette size={32} />,
-    title: "Web Designer",
+    title: "Web Development",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ad quam, veniam eos dicta",
   },
   {
     icon: <FaPaintBrush size={32} />,
-    title: "UI/UX Design",
+    title: "Web Application Development",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ad quam, veniam eos dicta",
   },
   {
     icon: <FaSearch size={32} />,
-    title: "SEO",
+    title: "E-commerce Development",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ad quam, veniam eos dicta",
   },
   {
     icon: <FaCode size={32} />,
-    title: "Custom Website Development",
+    title: "Custom Web Development",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ad quam, veniam eos dicta",
   },
   {
     icon: <FaCode size={32} />,
-    title: "Landing Page Developement",
+    title: "Landing Page Development",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ad quam, veniam eos dicta",
   },
 ];
@@ -78,9 +78,9 @@ export default function Services() {
           <Box
             key={index}
             sx={{
-              maxWidth: "370px",
+              maxWidth: { xs: "350px", md: "400px" },
               width: "100%",
-              p: 2,
+              p: { xs: "16px", sm: "20px" },
               display: "flex",
               flexDirection: "column",
               gap: "8px",
@@ -108,9 +108,7 @@ export default function Services() {
               </IconButton>
             </Box>
             <Box sx={{}}>
-              <Typography
-                sx={{ fontSize: "20px", fontWeight: "600", }}
-              >
+              <Typography sx={{ fontSize: "20px", fontWeight: "600" }}>
                 {service.title}
               </Typography>
               <Typography
