@@ -18,6 +18,7 @@ export default function Navbar() {
         margin: "auto",
       }}
     >
+      <Link href={"/"}>
       <Typography
         sx={{
           fontWeight: "500",
@@ -27,6 +28,7 @@ export default function Navbar() {
       >
         Portfolio
       </Typography>
+      </Link>
       <Box
         sx={{
           display: "flex",
