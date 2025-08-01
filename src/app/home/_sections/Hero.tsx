@@ -30,7 +30,7 @@ export default function Hero() {
           </Typography>
 
           <Typography sx={{ fontSize: "24px", fontWeight: "600", mb: "6px" }}>
-            I'm a <span>Frontend Developer</span>
+            I&apos;m a <span>Frontend Developer</span>
           </Typography>
 
           <Typography sx={{ fontSize:"16px", my: 2 }}>
@@ -40,18 +40,20 @@ export default function Hero() {
             laudantium soluta?
           </Typography>
 
-          <Box sx={{ paddingTop: { xs: "30px", md: "40px" } }}>
+          <Box sx={{ paddingTop: "30px",}}>
             <Button
               variant="contained"
               sx={{
                 color: "background.default",
                 bgcolor: "text.primary",
                 textTransform: "none",
+                fontWeight:"600",
                 paddingX: 3,
                 paddingY: 1.5,
                 borderRadius: "8px",
                 "&:hover": {
                   backgroundColor: "#1c2a3a", // hover effect
+                  color:"white"
                 },
               }}
             >
