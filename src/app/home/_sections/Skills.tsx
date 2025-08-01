@@ -14,6 +14,7 @@ import {
   SiTypescript,
   SiNextdotjs,
 } from "react-icons/si";
+import Image from "next/image";
 
 const skills = [
   { icon: <SiHtml5 size={80} color="#E44D26" />, label: "HTML5" },
@@ -27,7 +28,7 @@ const skills = [
   { icon: <SiTypescript size={80} color="#3178C6" />, label: "TypeScript" },
   {
     icon: (
-      <img
+      <Image
         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg"
         alt="Material UI"
         width={80}
@@ -83,6 +84,7 @@ export default function Skills() {
             display: "flex",
             alignItems: "center",
             gap: "50px",
+            padding:"30px",
           }}
         >
           {skills.map((skill, index) => (
