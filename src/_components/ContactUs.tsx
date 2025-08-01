@@ -45,7 +45,7 @@ export default function ContactUs() {
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
-            gap: { xs: "30px", lg: "40px" },
+            gap: { xs: "30px", lg: "50px" },
             flexDirection: { xs: "column", sm: "row" },
           }}
         >
@@ -218,7 +218,7 @@ export default function ContactUs() {
               bgcolor: "text.primary",
               padding: { xs: "15px", md: "30px", lg: "40px" },
               borderRadius: { xs: "20px", md: "20px" },
-              // maxWidth: { xs: "360px", md: "596px" },
+              maxWidth: { xs: "360px", md: "700px" },
               width: "100%",
             }}
           >
@@ -370,6 +370,7 @@ export default function ContactUs() {
                 sx={{
                   bgcolor: "background.default",
                   color: "text.primary",
+                  fontWeight:"600",
                   textTransform: "none",
                   paddingX: 3,
                   paddingY: 1.5,
