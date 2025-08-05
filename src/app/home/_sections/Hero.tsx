@@ -18,42 +18,54 @@ export default function Hero() {
     >
       <Box
         sx={{
-          // minHeight: "100vh",
+          minHeight: "100vh",
           display: "flex",
           alignItems: "center",
           // justifyContent: "center",
+          textAlign: "justify",
         }}
       >
-        <Box sx={{ maxWidth: 700 }}>
-          <Typography sx={{ fontSize: "34px", fontWeight: "700", mb: "6px" }}>
+        <Box sx={{ maxWidth: 750 }}>
+          <Typography sx={{ fontSize: "34px", fontWeight: "700" }}>
             Abdullah Muaz
           </Typography>
 
-          <Typography sx={{ fontSize: "24px", fontWeight: "600", mb: "6px" }}>
+          <Typography sx={{ fontSize: "24px", fontWeight: "600", my: "8px" }}>
             I&apos;m a <span>Frontend Developer</span>
           </Typography>
 
-          <Typography sx={{ fontSize:"16px", my: 2 }}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ducimus,
-            ab doloremque fugiat hic dolor alias accusantium laboriosam minima
-            sint sit delectus et doloribus, corrupti illo impedit maiores
-            laudantium soluta?
+          <Typography sx={{ fontSize: "18px", my: 2 }}>
+            I’m a passionate front-end developer and Computer Science graduate
+            with over 1 year of hands-on experience in crafting modern,
+            responsive, and user-centric web applications. My expertise lies in
+            HTML5, CSS3, JavaScript, React.js, and Next.js, with a strong focus
+            on delivering functional, visually compelling, and accessible
+            interfaces.
+          </Typography>
+          <Typography sx={{ fontSize: "18px", my: 2 }}>
+            I specialize in building engaging user experiences through clean
+            code, intuitive design, and performance optimization. With a solid
+            understanding of front-end architecture and a continuous learning
+            mindset, I strive to develop applications that not only meet
+            business objectives but also enhance usability. I aim to create
+            solutions that drive business growth and improve overall user
+            experience.
           </Typography>
 
-          <Box sx={{ paddingTop: "30px",}}>
+          <Box sx={{ paddingTop: "30px" }}>
             <Button
               variant="contained"
               sx={{
                 color: "background.default",
                 bgcolor: "text.primary",
                 textTransform: "none",
-                fontWeight:"600",
+                fontWeight: "600",
                 paddingX: 3,
                 paddingY: 1.5,
                 borderRadius: "8px",
                 "&:hover": {
                   backgroundColor: "#1c2a3a", // hover effect
-                  color:"white"
+                  color: "white",
                 },
               }}
             >
