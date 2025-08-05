@@ -16,7 +16,7 @@ export default function ContactUs() {
       sx={{
         bgcolor: "background.default",
         color: "text.primary",
-        padding: { xs: "20px", md: "30px 50px" },
+        padding: { xs: "20px",sm:"30px", md: "30px 50px" },
         fontFamily: "'Inter', sans-serif",
         transition: "all 0.3s ease",
         maxWidth: "1440px",
@@ -27,7 +27,7 @@ export default function ContactUs() {
         <Typography
           sx={{ color: "text.primary", fontSize: "40px", fontWeight: "600" }}
         >
-          Contact Us
+          Contact me
         </Typography>
         <Typography sx={{ color: "text.primary" }}>
           Any question or remarks? Just write a message!
