@@ -7,7 +7,7 @@ export default function Footer() {
     <>
       <Box
         sx={{
-          padding: { xs: "20px", md: "30px 50px" },
+          padding: { xs: "20px", sm:"30px", md: "30px 50px" },
           maxWidth: "1440px",
           margin: "auto",
         }}
