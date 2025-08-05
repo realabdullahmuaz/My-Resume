@@ -9,7 +9,7 @@ export default function ResumePage() {
       sx={{
         bgcolor: "background.default",
         color: "text.primary",
-        padding: { xs: "20px", md: "30px 50px" },
+        padding: { xs: "20px",sm:"30px", md: "30px 50px" },
         fontFamily: "'Inter', sans-serif",
         transition: "all 0.3s ease",
         maxWidth: "1440px",
@@ -17,7 +17,9 @@ export default function ResumePage() {
       }}
     >
       <Box sx={{ mb: "40px" }}>
-        <Typography sx={{ fontSize: {xs:"38px", sm:"48px"}, fontWeight: "700" }}>
+        <Typography
+          sx={{ fontSize: { xs: "38px", sm: "48px" }, fontWeight: "700" }}
+        >
           My Resumé.
         </Typography>
         <Typography sx={{ fontSize: "16px", mt: "6px" }}>
@@ -35,12 +37,12 @@ export default function ResumePage() {
             </Typography>
           </Link>
           ,{" "}
-          <Typography
+          {/* <Typography
             component="span"
             sx={{ fontWeight: "700", cursor: "pointer", color: "text.primary" }}
           >
             view
-          </Typography>{" "}
+          </Typography>{" "} */}
           or{" "}
           <Typography
             component="span"
@@ -71,10 +73,11 @@ export default function ResumePage() {
         sx={{
           display: "flex",
           flexDirection: { xs: "column-reverse", md: "row" },
-          gap: "50px",
+          gap: {sm:"30px", lg:"50px"},
+          rowGap:"30px",
         }}
       >
-        <Box sx={{ maxWidth: { xs: "100%", md: "600px" } }}>
+        <Box sx={{ maxWidth: { xs: "100%",md:"440px", lg: "600px" } }}>
           <Typography sx={{ fontSize: "20px", fontWeight: "700", mb: "8px" }}>
             Experience
           </Typography>
@@ -87,18 +90,18 @@ export default function ResumePage() {
               }}
             >
               <Typography sx={{ fontSize: "16px", fontWeight: "600" }}>
-                Zamp – Senior Frontend Engineer
+                DevCity – Frontend Developer
               </Typography>
               <Typography sx={{ fontSize: "12px", fontWeight: "700" }}>
-                MAY 2019 - PRESENT
+                Dec 2024 - PRESENT
               </Typography>
             </Box>
-            <Typography sx={{ fontSize: "16px" }}>
-              React, Typescript, Webpack
-            </Typography>
-            <Typography sx={{ fontSize: "16px" }}>
+            <Typography sx={{ fontSize: "16px", my:"8px" }}>
               Built reusable components and design systems that powered the
               frontend for Zamp’s core treasury infrastructure.
+            </Typography>
+            <Typography sx={{ fontSize: "16px" }}>
+              <strong>Tools/Technologies</strong> - React.js, Next.js, JavaScript, TypeScript, HTML 5, CSS 3, Git, UI-Design System
             </Typography>
           </Box>
           <Box sx={{ mb: "16px" }}>
@@ -127,7 +130,7 @@ export default function ResumePage() {
           {/* Repeat above Box for other experiences */}
         </Box>
 
-        <Box sx={{ maxWidth: { xs: "100%", md: "550px" } }}>
+        <Box sx={{ maxWidth: { xs: "100%", md:"440px", lg: "550px" } }}>
           <Typography sx={{ fontSize: "20px", fontWeight: "700", mb: "8px" }}>
             Summary
           </Typography>
@@ -181,6 +184,15 @@ export default function ResumePage() {
             >
               Github
             </Typography>
+            <Typography
+              component="a"
+              href="https://vercel.com/realabdullahmuazs-projects"
+              target="_blank"
+              rel="noopener noreferrer"
+              sx={{ textDecoration: "underline" }}
+            >
+              Vercel
+            </Typography>
           </Box>
           <Divider
             sx={{
@@ -197,17 +209,23 @@ export default function ResumePage() {
             Languages:
           </Typography>
           <Typography sx={{ fontSize: "16px", mb: "16px" }}>
-            JavaScript, HTML 5, CSS 3, SASS, TypeScript, Tailwind CSS, Next.js, Node.js, NPM,
-            Github, Git and more
+            JavaScript, HTML 5, CSS 3, TypeScript, SASS, FlowTools/Systems: Git,
+            GitHub, NPM, Yarn and more
           </Typography>
           <Typography sx={{ fontSize: "16px", fontWeight: "700", mb: "8px" }}>
             Technologies:
           </Typography>
           <Typography sx={{ fontSize: "16px", mb: "16px" }}>
-            JavaScript, React.js, TypeScript, Next.js, Tailwind, Material-UI,
-            Node.js, Git, CI/CD, Unit Testing
+            React.js, Next.js, Material UI (MUI), React Hook Form, Node.js,
+            Tailwind CSS, ESLint and more
           </Typography>
-
+          <Typography sx={{ fontSize: "16px", fontWeight: "700", mb: "8px" }}>
+            Others:
+          </Typography>
+          <Typography sx={{ fontSize: "16px", mb: "16px" }}>
+            UI/UX Design , Testing, Landing Page, Web Application, Responsive Design, UI
+            Animations, Ecommerace Website, Webflow, Softwere Developement
+          </Typography>
           <Divider
             sx={{
               my: "24px",
@@ -225,7 +243,7 @@ export default function ResumePage() {
           <Typography sx={{ fontSize: "16px" }}>
             Bachelor&apos;s in Computer Science
           </Typography>
-
+            
           <Divider
             sx={{
               my: "24px",
