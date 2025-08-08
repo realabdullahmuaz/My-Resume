@@ -1,17 +1,12 @@
 "use client";
 
 import * as React from "react";
-import {
-  Box,
-  CardContent,
-  Typography,
-  IconButton,
-} from "@mui/material";
+import { Box, CardContent, Typography, IconButton } from "@mui/material";
 import Masonry from "@mui/lab/Masonry";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import Image from "next/image";
-import image1 from "../../../_assets/pngs/image1.jpeg"
-import image4 from "../../../_assets/pngs/image4.webp"
+import image1 from "../../../_assets/pngs/image1.jpeg";
+import image4 from "../../../_assets/pngs/image4.webp";
 
 const galleryItems = [
   {
@@ -54,7 +49,6 @@ const galleryItems = [
     image: image4,
     category: "Illustration",
   },
- 
 ];
 
 export default function Projects() {
@@ -70,6 +64,18 @@ export default function Projects() {
         margin: "auto",
       }}
     >
+      <Typography
+        sx={{
+          fontSize: "34px",
+          fontWeight: "700",
+          textAlign: "center",
+          mb: "32px",
+          color: "text.pramiry",
+        }}
+      >
+        Projects
+      </Typography>
+
       <Masonry columns={{ xs: 1, sm: 2, md: 3, lg: 4 }} spacing={2}>
         {galleryItems.map((item, index) => (
           <Box
@@ -104,7 +110,12 @@ export default function Projects() {
                   "&:hover": { backgroundColor: "white" },
                 }}
               >
-                <FavoriteBorderIcon sx={{background:"transparent", color:"background.default"}}/>
+                <FavoriteBorderIcon
+                  sx={{
+                    background: "transparent",
+                    color: "background.default",
+                  }}
+                />
               </IconButton>
             </Box>
 
