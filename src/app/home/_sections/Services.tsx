@@ -72,7 +72,7 @@ export default function Services() {
               p: { xs: "20px", md: "25px" },
               display: "flex",
               flexDirection: "column",
-              gap: "8px",
+              gap: "16px",
               borderRadius: 3,
               color: "background.default",
               bgcolor: "text.primary",
@@ -113,7 +113,7 @@ export default function Services() {
                 {service.title}
               </Typography>
               <Typography
-                sx={{ fontSize: "18px", my: 1, color: "text.pramiry" }}
+                sx={{ fontSize: "18px", my: 2, color: "text.pramiry" }}
               >
                 {service.desc}
               </Typography>
