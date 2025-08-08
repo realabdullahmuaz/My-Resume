@@ -57,7 +57,7 @@ export default function Skills() {
           fontSize: "34px",
           fontWeight: "700",
           textAlign: "center",
-          mb: "16px",
+          mb: "32px",
           color: "text.pramiry",
         }}
       >
@@ -66,16 +66,16 @@ export default function Skills() {
 
       <Typography
         sx={{
-          fontSize: "16px",
+          fontSize: "18px",
           pb: "16px",
           maxWidth: "700px",
           margin: "auto",
           textAlign: "center",
         }}
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid odit
-        facere iste consectetur delectus pariatur sequi eius inventore libero
-        sapiente facilis illo labore unde repudiandae.
+        I use modern, reliable technologies to build fast, scalable, and
+        user-focused web solutions—ensuring clean code, high performance, and
+        long-term value aligned with your business goals.
       </Typography>
 
       <Marquee pauseOnHover speed={150} gradient={false}>
@@ -84,7 +84,7 @@ export default function Skills() {
             display: "flex",
             alignItems: "center",
             gap: "50px",
-            padding:"30px",
+            padding: "30px",
           }}
         >
           {skills.map((skill, index) => (
